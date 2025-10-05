@@ -23,6 +23,12 @@ Students often forget laundry in shared machines, causing delays, conflicts, and
 
 ---
 
+## Innovation Statement
+
+DYP Aura transforms a common student problem — forgotten laundry — into a smart, AI-powered solution. By combining predictive notifications, real-time machine tracking, and residence-specific management, it makes laundry efficient, stress-free, and even fun.
+
+---
+
 ## Repo Structure
 
 ```
