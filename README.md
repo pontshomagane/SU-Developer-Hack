@@ -1,3 +1,54 @@
+# DYP Aura
+
+**Team:** DYP.inc  
+**Project:** DYP Aura – Smart laundry management for students  
+**Hackathon:** [Hackathon Name], [Date]  
+
+---
+
+## Problem
+Students often forget laundry in shared machines, causing delays, conflicts, and wasted time. Phone timers don't solve the problem.
+
+---
+
+## Solution
+**DYP Aura** is a smart laundry management system that:  
+- Sends AI-powered smart reminders  
+- Shows real-time machine availability per residence  
+- Predicts when machines will be free  
+- Allows queueing and reservations  
+- Filters data by residence (Stellenbosch University)  
+
+**Tagline:** *"Never let dirty laundry ruin your aura."*
+
+---
+
+## Repo Structure
+
+```
+SU-Developer-Hack/
+├── components/           # React components
+│   ├── Login.tsx        # Welcome page with animations
+│   ├── Dashboard.tsx    # Main machine dashboard
+│   ├── Chatbot.tsx      # AI assistant interface
+│   ├── LaundryScheduler.tsx  # Scheduling system
+│   ├── GamificationPanel.tsx # Points, badges, leaderboard
+│   ├── FeedbackSystem.tsx    # Machine rating & reporting
+│   └── ...              # Other UI components
+├── services/            # Business logic
+│   ├── geminiService.ts # AI integration with Gemini
+│   ├── gamificationService.ts # Points & badges system
+│   └── notificationService.ts # Notifications & scheduling
+├── types.ts            # TypeScript type definitions
+├── constants.ts        # App constants and configuration
+├── App.tsx            # Main application component
+├── index.html         # HTML template with animations
+├── package.json       # Dependencies and scripts
+└── README.md         # This file
+```
+
+---
+
 # DYP Aura - An Intelligent Aura for Your Laundry Space
 
 A revolutionary AI-powered smart living and clean management system, designed to create an intelligent aura around your laundry experience. Powered by Google's Gemini AI for seamless predictions and personalized assistance.
